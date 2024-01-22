@@ -1,9 +1,9 @@
 
-package seminar2.pkg1;
+package SimpleTermometer;
 
 import java.util.Scanner;
 
-public class Seminar21
+public class TempCheck
 {
     
       public static void main(String[] args) 

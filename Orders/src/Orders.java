@@ -1,3 +1,5 @@
+package Orders.src;
+
 import java.util.Scanner;
 
 public class Orders {

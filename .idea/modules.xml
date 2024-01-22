@@ -2,21 +2,21 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/160219seminar3/160219seminar3.iml" filepath="$PROJECT_DIR$/160219seminar3/160219seminar3.iml" />
       <module fileurl="file://$PROJECT_DIR$/23.02.19/23.02.19.iml" filepath="$PROJECT_DIR$/23.02.19/23.02.19.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AccountPractice/AccountPractice.iml" filepath="$PROJECT_DIR$/AccountPractice/AccountPractice.iml" />
       <module fileurl="file://$PROJECT_DIR$/AmstrongGPSurgery/AmstrongGPSurgery.iml" filepath="$PROJECT_DIR$/AmstrongGPSurgery/AmstrongGPSurgery.iml" />
       <module fileurl="file://$PROJECT_DIR$/Array/Array.iml" filepath="$PROJECT_DIR$/Array/Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/Calculator/Calculator.iml" filepath="$PROJECT_DIR$/Calculator/Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CashMachine/CashMachine.iml" filepath="$PROJECT_DIR$/CashMachine/CashMachine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Create an object/Create an object.iml" filepath="$PROJECT_DIR$/Create an object/Create an object.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exceptions/Exceptions.iml" filepath="$PROJECT_DIR$/Exceptions/Exceptions.iml" />
       <module fileurl="file://$PROJECT_DIR$/GUI/GUI.iml" filepath="$PROJECT_DIR$/GUI/GUI.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaApplication1/JavaApplication1.iml" filepath="$PROJECT_DIR$/JavaApplication1/JavaApplication1.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaFirst/JavaFirst.iml" filepath="$PROJECT_DIR$/JavaFirst/JavaFirst.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/NetBeansProjects.iml" filepath="$PROJECT_DIR$/.idea/NetBeansProjects.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seminar2/Seminar2.iml" filepath="$PROJECT_DIR$/Seminar2/Seminar2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Simple Calculator/Simple Calculator.iml" filepath="$PROJECT_DIR$/Simple Calculator/Simple Calculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/Teacher/Teacher.iml" filepath="$PROJECT_DIR$/Teacher/Teacher.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Week4/Week4.iml" filepath="$PROJECT_DIR$/Week4/Week4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/arraySearch/arraySearch.iml" filepath="$PROJECT_DIR$/arraySearch/arraySearch.iml" />
-      <module fileurl="file://$PROJECT_DIR$/seminar2.1/seminar2.1.iml" filepath="$PROJECT_DIR$/seminar2.1/seminar2.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Termperature Check with switch/Termperature Check with switch.iml" filepath="$PROJECT_DIR$/Termperature Check with switch/Termperature Check with switch.iml" />
     </modules>
   </component>
 </project>

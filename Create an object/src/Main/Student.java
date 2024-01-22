@@ -1,5 +1,5 @@
 
-package week4;
+package Main;
 
 public class Student
 {
@@ -8,7 +8,7 @@ public class Student
   char gender;
   String email;
   Boolean eligibility;
-  String courceName;
+  String courseName;
   
   
   public Student(String name1, int age1, char gend,String email1,boolean elig)
@@ -30,8 +30,8 @@ public class Student
   } 
   public void addCourceName(String cource)
   {
-      courceName = cource;
-      System.out.println("Student cource is: " + courceName); 
+      courseName = cource;
+      System.out.println("Student cource is: " + courseName);
       System.out.println("");
   }
 }

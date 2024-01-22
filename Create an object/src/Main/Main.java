@@ -1,7 +1,7 @@
 
-package week4;
+package Main;
 
-public class Week4
+public class Main
 {
 
     public static void main(String[] args)

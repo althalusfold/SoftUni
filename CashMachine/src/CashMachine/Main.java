@@ -1,5 +1,5 @@
 
-package pkg160219seminar3;
+package CashMachine;
 
 import java.util.Scanner;
 
@@ -41,11 +41,8 @@ public class Main
                 case 3:
                     checkBalance();
                     continueTransaction();
-                    return; 
-                case 4:
-                    System.out.println("Thank you, have a nice day!");
                     return;
-                default:
+                    default:
                     System.out.println("Thank you, have a nice day!");
                     return;
                 }           
