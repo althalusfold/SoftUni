@@ -19,7 +19,7 @@ public class Seminar2
        {
            System.out.println(numb + " Number is bigger than or equal to 10!");
        }
-       else if (numb >= 1 && numb < 10)     // Check if numb is bigger or qual to 1 and smaller than 10
+       else if (numb >= 1 && numb < 10)     // Check if numb is bigger or equal to 1 and smaller than 10
        {
            System.out.println(numb + " Is smaller than 10 and equal or bigger than 1!");
        } 

@@ -1,5 +1,5 @@
 
-package pkg23.pkg02.pkg19;
+package ObjectPractice;
 
 public class Cup 
 {

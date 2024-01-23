@@ -1,7 +1,7 @@
 
-package pkg23.pkg02.pkg19;
+package ObjectPractice;
 
-public class Week4
+public class Main
 {   
     public static void main(String[] args)
     {
