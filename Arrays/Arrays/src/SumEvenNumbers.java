@@ -1,3 +1,5 @@
+package Arrays.Arrays.src;
+
 import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Scanner;

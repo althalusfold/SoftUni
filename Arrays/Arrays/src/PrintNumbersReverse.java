@@ -1,3 +1,5 @@
+package Arrays.Arrays.src;
+
 import java.util.Scanner;
 
 public class PrintNumbersReverse {
