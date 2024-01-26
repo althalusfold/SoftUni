@@ -1,21 +1,26 @@
 package Arrays.Arrays.src;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class SumEvenNumbers {
+public class EvenOddSum {
     public static void main(String[] args) {
-        Scanner scanner =new Scanner(System.in);
+
+        Scanner scanner = new Scanner(System.in);
         int[] numbers = Arrays.stream(scanner.nextLine().split(" "))
                 .mapToInt(Integer::parseInt)
                 .toArray();
-        int sum = 0;
+        int evenSum = 0;
+        int oddSum = 0;
 
         for(int i=0; i<numbers.length; i++){
             if(numbers [i]% 2 == 0){
-                sum+=numbers[i];
+                evenSum+=numbers[i];
+            }else{
+                oddSum+=numbers[i];
             }
         }
-        System.out.println(sum);
+        System.out.print(evenSum-oddSum);
     }
 }
 
