@@ -7,9 +7,10 @@ public class CondenseArray {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int[] firstArray = Arrays.stream(scanner.nextLine().split(" "))
-                .mapToInt(Integer::parseInt)
-                .toArray();
+        int[] firstArray = Arrays.stream(scanner.nextLine()
+                .split(" "))
+                    .mapToInt(Integer::parseInt)
+                        .toArray();
 
         int [] temp = new int[firstArray.length];
         for (int i = 0; i < firstArray.length; i++) {
