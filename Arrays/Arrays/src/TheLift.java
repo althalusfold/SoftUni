@@ -13,9 +13,13 @@ public class TheLift {
 
         int space = 0;
         int result = people / 4;
+        if(people < 4){
+            result = 1;
+        }
+
         int capacity = array.length * 4;
-        for (int i = 0; i < array.length ; i++) {
-           space += array[i];
+        for (int j : array) {
+            space += j;
         }
         capacity -= space;
 
@@ -26,14 +30,18 @@ public class TheLift {
         }else {
             if (people < capacity) {
                 System.out.println("The lift has empty spots!");
-                int spaceLeft = capacity - people;
 
                 for (int i = 0; i < result; i++) {
                     if (array[i] >= 0 && array[i] < 4 && people > 0) {
-                        int difference = 4 - array[i];
-                        array[i] += difference;
-                        people -= difference;
-                        array[array.length - 1] = people;
+                        if(people < 4){
+                            array[i]=people;
+                            people = 0;
+                        }else {
+                            int difference = 4 - array[i];
+                            array[i] += difference;
+                            people -= difference;
+                            array[array.length - 1] = people;
+                        }
                     }
                 }
                 for (int seats : array) {
