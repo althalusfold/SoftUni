@@ -18,6 +18,7 @@ public class HouseParty{
                 }
             }else if(guests.contains(guest)){
                 guests.remove(guest);
+            }else{
                 System.out.println(guest + " is not in the list!");
             }
         }
