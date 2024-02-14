@@ -25,10 +25,10 @@ public class LIstOperations {
 
                 case "Remove":
                     index = (Integer.parseInt(command.split(" ")[1]));
-                    if(index < numbers.size()) {
+                    if(index >= 0 && index < numbers.size()) {
                         numbers.remove(index);
                     }else{
-                        System.out.println("Invalid Index");
+                        System.out.println("Invalid index");
                         break;
                     }
                     break;
@@ -37,13 +37,13 @@ public class LIstOperations {
                     turns = (Integer.parseInt(command.split(" ")[2]));
                     if(((command.split(" ")[1])).equals("left")){
                         for (int i = 0; i < turns; i++) {
-                            numbers.add(numbers.getFirst());
-                            numbers.removeFirst();
+                            numbers.add(numbers.get(0));
+                            numbers.remove(numbers.get(0));;
                         }
                     }else{
                         for (int i = 0; i < turns; i++) {
-                            numbers.addFirst(numbers.getLast());
-                            numbers.removeLast();
+                            numbers.add(0, numbers.get(numbers.size() - 1));
+                            numbers.remove(numbers.size() - 1);
                         }
                     }
                     break;
@@ -51,10 +51,10 @@ public class LIstOperations {
                 case "Insert":
                     index = (Integer.parseInt(command.split(" ")[2]));
                     numberValue = (Integer.parseInt(command.split(" ")[1]));
-                    if(index <= numbers.size()) {
+                    if(index >= 0 && index < numbers.size()) {
                         numbers.add(index, numberValue);
                     }else{
-                        System.out.println("Invalid Index");
+                        System.out.println("Invalid index");
                         break;
                     }
                     break;
