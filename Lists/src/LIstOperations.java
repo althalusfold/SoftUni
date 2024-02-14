@@ -37,13 +37,13 @@ public class LIstOperations {
                     turns = (Integer.parseInt(command.split(" ")[2]));
                     if(((command.split(" ")[1])).equals("left")){
                         for (int i = 0; i < turns; i++) {
-                            numbers.add(numbers.get(0));
-                            numbers.remove(numbers.get(0));;
+                            numbers.add(numbers.getFirst());
+                            numbers.remove(numbers.getFirst());;
                         }
                     }else{
                         for (int i = 0; i < turns; i++) {
-                            numbers.add(0, numbers.get(numbers.size() - 1));
-                            numbers.remove(numbers.size() - 1);
+                            numbers.addFirst(numbers.getLast());
+                            numbers.removeLast();
                         }
                     }
                     break;
