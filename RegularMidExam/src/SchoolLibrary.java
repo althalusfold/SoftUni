@@ -21,12 +21,16 @@ public class SchoolLibrary {
                     String bookName = commands[1];
                     if (!books.contains(bookName)) {
                         books.add(0, bookName);
+                        break;
                     }
                     break;
 
                 case "Take Book":
                     bookName = commands[1];
-                    books.remove(bookName);
+                    if (books.contains(bookName)) {
+                        books.remove(bookName);
+                        break;
+                    }
                     break;
 
                 case "Swap Books":
@@ -37,18 +41,23 @@ public class SchoolLibrary {
                         int secondBookIndex = books.indexOf(secondBookName);
                         books.set(firstBookIndex, secondBookName);
                         books.set(secondBookIndex, firstBookName);
+                        break;
                     }
                     break;
 
                 case "Insert Book":
                     bookName = commands[1];
-                    books.add(bookName);
+                    if (!books.contains(bookName)){
+                        books.add(bookName);
+                        break;
+                    }
                     break;
 
                 case "Check Book":
                     int index = Integer.parseInt(commands[1]);
                     if (index >= 0 && index < books.size()) {
                         System.out.println(books.get(index));
+                        break;
                     }
                     break;
             }
