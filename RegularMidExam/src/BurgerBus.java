@@ -16,10 +16,10 @@ public class BurgerBus {
             city.add(scanner.nextLine());
             income.add(Double.parseDouble(scanner.nextLine()));
             expenses.add(Double.parseDouble(scanner.nextLine()));
-            if(i % 3 == 0){
+            if(i % 3 == 0 && i != 15){
                 expenses.set(i-1,expenses.get(i-1)*1.5);
             }
-            if((i % 5) ==0){
+            if((i % 5) == 0){
                 income.set(i-1, income.get(i-1)*0.9);
             }
             profit = income.get(i-1) - expenses.get(i-1);

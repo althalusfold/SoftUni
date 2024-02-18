@@ -53,7 +53,7 @@ public class TaxCalculator {
                     break;
 
                 default:
-                    System.out.println("Invalid type.");
+                    System.out.println("Invalid car type.");
                     break;
             }
         }
