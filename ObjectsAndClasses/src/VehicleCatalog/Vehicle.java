@@ -16,31 +16,19 @@ public class Vehicle {
         return typeOfVehicle;
     }
 
-    public void setTypeOfVehicle(String typeOfVehicle) {
-        this.typeOfVehicle = typeOfVehicle;
-    }
-
     public String getModel() {
         return model;
-    }
-
-    public void setModel(String model) {
-        this.model = model;
     }
 
     public String getColor() {
         return color;
     }
 
-    public void setColor(String color) {
-        this.color = color;
-    }
-
     public int getHorsePower() {
         return horsePower;
     }
 
-    public void setHorsePower(int horsePower) {
-        this.horsePower = horsePower;
+    public void setTypeOfVehicle(String typeOfVehicle) {
+        this.typeOfVehicle = typeOfVehicle;
     }
 }
