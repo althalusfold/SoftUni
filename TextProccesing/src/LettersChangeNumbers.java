@@ -15,13 +15,17 @@ public class LettersChangeNumbers {
             currentString = new StringBuilder(sequence.get(i));
             char firstLetter = currentString.charAt(0);
             char lastLetter = currentString.charAt(currentString.length() - 1);
-            int currentNumber = Integer.parseInt(currentString.substring(1, currentString.length()-1));
+            double currentNumber = Double.parseDouble(currentString.substring(1, currentString.length()-1));
             int firstLetterPosition = 0;
             int lastLetterPosition = 0;
 
+//            char letterBefore = code.charAt(0);
+//            double number = Double.parseDouble(code.substring(1, code.length() - 1));
+//            char letterAfter = code.charAt(code.length() - 1);
+
             if (!Character.isLowerCase(firstLetter)) {
                 firstLetterPosition = firstLetter - 64;
-                result = currentNumber * 1.0 / firstLetterPosition;
+                result = currentNumber / firstLetterPosition;
             } else {
                 firstLetterPosition = firstLetter - 96;
                 result = currentNumber * firstLetterPosition;
