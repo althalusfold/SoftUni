@@ -19,10 +19,6 @@ public class LettersChangeNumbers {
             int firstLetterPosition = 0;
             int lastLetterPosition = 0;
 
-//            char letterBefore = code.charAt(0);
-//            double number = Double.parseDouble(code.substring(1, code.length() - 1));
-//            char letterAfter = code.charAt(code.length() - 1);
-
             if (!Character.isLowerCase(firstLetter)) {
                 firstLetterPosition = firstLetter - 64;
                 result = currentNumber / firstLetterPosition;
