@@ -3,6 +3,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
 public class Furniture {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -14,7 +15,7 @@ public class Furniture {
 
         while (!input.equals("Purchase")) {
             Matcher matcher = pattern.matcher(input);
-            while (matcher.find()) {
+            if (matcher.find()) {
                 furniture.add(matcher.group("furnitureName"));
                 double price = Double.parseDouble(matcher.group("price"));
                 int quantity = Integer.parseInt(matcher.group("quantity"));
@@ -25,8 +26,7 @@ public class Furniture {
 
         System.out.println("Bought furniture:");
         for(String furnitures : furniture){
-            String currentFurniture = furnitures;
-            System.out.println(currentFurniture);
+            System.out.println(furnitures);
         }
         System.out.printf("Total money spend: %.2f", totalPrice);
     }
