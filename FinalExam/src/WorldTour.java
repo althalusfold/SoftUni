@@ -1,4 +1,3 @@
-package WorldTour;
 import java.util.Scanner;
 public class WorldTour {
     public static void main(String[] args) {
