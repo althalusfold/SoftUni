@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class DecryptingCommands {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -75,7 +74,6 @@ public class DecryptingCommands {
             command = action.split(" ")[0];
         }
     }
-
     public static boolean isValidIndex(int index, StringBuilder builder) {
         if (index >= 0 && index <= builder.length() - 1) {
             return true;
